@@ -90,6 +90,7 @@ class Warrior(object):
         s += ';redcode-%s\n' % (self.hillkey,)
         s += ';name %s\n' % (self.name,)
         s += ';author %s\n' % (self.author,)
+
         s += ';assert 1\n'
 
         if not self.standard == STANDARD_88:
